@@ -19,7 +19,7 @@ body{
 }
 #topbar ul li a{
     text-decoration: none;
-    color:#070606;
+    color:#222;
     padding: 10px;
     padding-top: 20px;
     
@@ -47,4 +47,23 @@ body{
 }
 #search span{
     float: left;
+}
+#submit{
+    border: none;
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#submit:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+background-color: #f8f9fa;
+border: 1px solid #dadce0;
+color: #202124;
+}
+.language{
+    padding: 30px;
+    padding-left: 0px;
+    font-size: 13px;
+    color:#222;
 }
