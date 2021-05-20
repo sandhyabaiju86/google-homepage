@@ -2,12 +2,28 @@
 <html>
     <head>
         <title>Google</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-        <form>
+        <div id="topbar"> 
+            <nav>
+                <ul class="nav-items">
+                <li class="nav-links"><a href="#">Gmail</a></li>
+                <li class="nav-links"><a href="#">Images</a></li>
+                <li class="nav-links"><a href="#"><span class="material-icons-outlined">apps</span></a></li>
+                <li class="nav-links"><a href="#"><span class="material-icons-outlined">account_circle</span></a></li>
+                </ul>
+        </nav>
+        </div>
+        <div id="main">
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+        <form id="details">
             <button type="button" value="search" name="search" id="search"><span class="material-icons-outlined">
-                </span></button>
+               search </span></button><br>
+              <button type="submit" id="submit">Google Search</button> 
+              <button type="submit" id="submit">I'm Feeling Lucky</button>
         </form>
+        </div>
     </body>
 </html>

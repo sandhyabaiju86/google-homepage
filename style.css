@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#topbar {
+    float: right;
+    font-size: 13px;
+   
+   
+}
+.nav-items{
+    display:flex;
+    
+}
+#topbar ul li{
+    list-style: none;   
+   
+}
+#topbar ul li a{
+    text-decoration: none;
+    color:#070606;
+    padding: 10px;
+    padding-top: 20px;
+    
+   
+}
+#main {
+    position: relative;
+    top: 100px;
+    left:500px;
+    margin: 0px auto;
+    
+}
+#details #search{
+    position: relative;
+    margin-left: -100px;
+    margin-bottom: 30px;
+    width: 500px;
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+     border-style: none;
+    background-color: transparent;
+    border: 1px solid #dadce0;
+}
+#search span{
+    float: left;
+}
