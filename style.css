@@ -105,15 +105,15 @@ color: #202124;
     padding-right: 20px;
 }
 .footer-items{
-    display: flex;
-   
-padding-top: 0px;
-padding-bottom: 0px;
+    display: grid;
+    padding-top: 0px;
+    padding-bottom: 0px;
     
 }
  .right {
-    flex-direction:flex-end;
-    justify-content: right;
+     display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
     
 
 padding-top: 0px;
