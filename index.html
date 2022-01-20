@@ -1,52 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Google</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div id="topbar"> 
-            <nav>
-                <ul class="nav-items">
-                <li class="nav-links"><a href="#">Gmail</a></li>
-                <li class="nav-links"><a href="#">Images</a></li>
-                <li class="nav-links"><a href="#"><span class="material-icons-outlined">apps</span></a></li>
-                <li class="nav-links"><a href="#"><span class="material-icons-outlined">account_circle</span></a></li>
-                </ul>
-        </nav>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <title>Google</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Gmail</a></li>
+            <li><a href="">Images</a>  </li>
+            <li><a href=""><span class="material-icons">
+                apps
+                </span></a></li>
+            <li><a href=""><span class="material-icons">
+                account_circle
+                </span></a></li>
+        </ul>
+    </nav>
+    <section class="main">
+       <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google log" class="google-logo">
         </div>
-        <div id="main">
-        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-        <form id="details">
-            <button type="button" value="search" name="search" id="search"><span class="material-icons-outlined">
-               search </span></button><br>
-              <button type="submit" id="submit">Google Search</button> 
-              <button type="submit" id="submit">I'm Feeling Lucky</button>
-        </form>
-        <div class="language">
-            Google offered in :
-            <a dir="rtl" href="https://www.google.com/setprefs?sig=0_P0Oc1sUGkzckUEVmPvDyUp3cLHs%3D&amp;hl=ar&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjNneiC-8PwAhWCzIUKHXzdC-oQ2ZgBCA0">العربية</a>
-            <a dir="rtl" href="https://www.google.com/setprefs?sig=0_P0Oc1sUGkzckUEVmPvDyUp3cLHs%3D&amp;hl=fa&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjNneiC-8PwAhWCzIUKHXzdC-oQ2ZgBCA4">فارسی</a>
-            <a href="https://www.google.com/setprefs?sig=0_P0Oc1sUGkzckUEVmPvDyUp3cLHs%3D&amp;hl=hi&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjNneiC-8PwAhWCzIUKHXzdC-oQ2ZgBCA8">हिन्दी</a>
-            <a dir="rtl" href="https://www.google.com/setprefs?sig=0_P0Oc1sUGkzckUEVmPvDyUp3cLHs%3D&amp;hl=ur&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjNneiC-8PwAhWCzIUKHXzdC-oQ2ZgBCBA">اردو</a>
+        <div>
+           
+            <form class="search">
+                <span class="material-icons search-logo" >search</span>
+                <input type="search" class="g-search" >
+                <span class="material-icons mic">mic</span>
+            </form>
         </div>
+        <div class="buttons">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+
         </div>
-        <div class="footer">
-            <div class="loc">United Arab Emirates</div>
-            <div>
-                <ul class="footer-items">
-                    <li class="footer-links" ><a href="#">About</a></li>
-                    <li class="footer-links"><a href="#">Advertising</a></li>
-                    <li class="footer-links"><a href="#">Business</a></li>
-                    <li class="footer-links"><a href="#">How Search Works</a></li>
-                    <li class="footer-links right" ><a href="#">Privacy</a></li> 
-                    <li class="footer-links right"><a href="#">Terms</a></li>
-                     <li class="footer-links right"><a href="#">Settings</a></li>
-                </ul>
-            </div>
+
+
+    </section>
+    <footer>
+        <div class="layer1">United Arab Emirates</div>
+        <div class="layer1 footer-links">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">How Search Works</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Settings</a></li>
+            </ul>
         </div>
-        
-    </body>
+    </footer>
+</body>
 </html>
